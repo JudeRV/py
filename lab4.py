@@ -108,7 +108,8 @@ def square_root(number, num_guesses):
     Returns: The approximate square root of the given number
     """
     
-    guess = number / 2 # Perform the first iteration separately
+    # Perform the first iteration separately
+    guess = number / 2
 
     # Iteratively updates "guess" according to Newton's method until "num_guesses" is reached
     for i in range(num_guesses - 1):
@@ -123,7 +124,7 @@ def main():
 
     Returns: None
     """
-    
+
     t = turtle.Turtle()
 
     # Executes each function and displays their respective results
