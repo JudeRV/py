@@ -111,7 +111,7 @@ def square_root(number, num_guesses):
     # Perform the first iteration separately
     guess = number / 2
 
-    # Iteratively updates "guess" according to Newton's method until "num_guesses" is reached
+    # Iteratively updates value of guess according to Newton's method until value of num_guesses is reached
     for i in range(num_guesses - 1):
         guess = 1 / 2 * (guess + (number / guess))
     return guess
