@@ -4,7 +4,7 @@
 #Your name: Jude Vargas
 #
 #Names of people you consulted
-#for this assignment(if None, say None):
+#for this assignment(if None, say None): None
 #
 #I affirm that I have not violated the
 #Academic Integrity policies detailed in the syllabus
