@@ -4,7 +4,7 @@
 #Your name: Jude Vargas
 #
 #Names of people you consulted
-#for this assignment(if None, say None):
+#for this assignment(if None, say None): None
 #
 #I affirm that I have not violated the
 #Academic Integrity policies detailed in the syllabus
@@ -128,7 +128,7 @@ def main():
     t = turtle.Turtle()
 
     # Executes each function and displays their respective results
-    print(f"1. area_of_circle(5) = {area_of_circle(5)}")
+    print(f"1. area_of_circle(5) = {area_of_circle(5)}\n")
     
     print("2. draw_square(t, 0, 0, 30) will be displayed in Turtle's window")
     draw_square(t, 0, 0, 30)
@@ -136,7 +136,7 @@ def main():
     print("3. draw_nested_squares(t, 250, 250, 20, 5) will be displayed in Turtle's window")
     draw_nested_squares(t, 250, 250, 20, 5)
 
-    print("4. draw_twisted_squares(t, -250, -250, 100, 4) will be displayed in Turtle's window")
+    print("4. draw_twisted_squares(t, -250, -250, 100, 4) will be displayed in Turtle's window\n")
     draw_twisted_squares(t, -250, -250, 100, 4)
 
     print(f"5. square_root(3, 5) = {square_root(3, 5)} --- math.sqrt(3) = {math.sqrt(3)}")
