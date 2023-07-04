@@ -13,6 +13,14 @@
 ########################################################
 
 def main():
+    """
+    Function main prompts the user for information about their travels, then prints their travel & arrival times
+
+    Parameters: None
+    
+    Returns: None
+    """
+
     # Prints greeting, prompts the user for each input, and stores each of them as integers
     print("Welcome to the travel advisor program.")
     current_hours = int(input("Enter current time, the hours part, using a 24-hour format: "))
