@@ -38,7 +38,7 @@ def main():
 
     #Prints the trip report including the travel and arrival times
     print("\n\nHere is the trip report:\n---\n")
-    print(f"Current time is {current_hours}:{current_mins}")
+    print(f"Current time is {format(current_hours, '02d')}:{format(current_mins, '02d')}")
     print(f"Distance to destination is {distance} miles")
     print(f"Travel speed is {speed} miles/hour")
     print(f"Travel time remaining: {travel_hours} hours and {travel_mins} minutes")
