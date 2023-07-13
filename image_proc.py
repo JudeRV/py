@@ -15,7 +15,14 @@
 from cImage import *
 
 def flip_horizontal(img):
-    """Flip the specified image left to right and return the modified image"""
+    """
+    Function flip_horizontal flips the specified image left to right and returns the modified image
+    
+    Parameters:
+        img: the image object from which to get the original pixels
+
+    Returns: A new image object containing the flipped image
+    """
     
     # Create an empty image to copy each pixel over
     width = img.getWidth()
@@ -33,7 +40,14 @@ def flip_horizontal(img):
     return new_img
 
 def sepia_tone(img):
-    """Apply the sepia tone transformation to the specified image, and return the modified image"""
+    """
+    Function sepia_tone applies the sepia tone transformation to the specified image, and returns the modified image
+    
+    Parameters:
+        img: the image object from which to get the original pixels
+
+    Returns: A new image object containing the filtered image
+    """
     
     # Create an empty image to copy each pixel over
     width = img.getWidth()
@@ -62,7 +76,14 @@ def sepia_tone(img):
     return new_img
 
 def convert_to_gray_scale(img):
-    """Apply the gray scale transformation to the specified image, and return the modified image"""
+    """
+    Function conver_to_gray_scale applies the gray scale transformation to the specified image, and returns the modified image
+    
+    Parameters:
+        img: the image object from which to get the original pixels
+
+    Returns: A new image object containing the grayscale image
+    """
     
     # Create an empty image to copy each pixel over
     width = img.getWidth()
@@ -87,7 +108,14 @@ def convert_to_gray_scale(img):
     return new_img
 
 def flip_vertical(img):
-    """Flip the specified image upside down and return the modified image"""
+    """
+    Function flip_vertical flips the specified image upside down and returns the modified image
+
+    Parameters:
+        img: the image object from which to get the original pixels
+
+    Returns: A new image object containing the flipped image
+    """
     
     # Create an empty image to copy each pixel over
     width = img.getWidth()
@@ -105,7 +133,14 @@ def flip_vertical(img):
     return new_img
 
 def rotate_right_90(img):
-    """Rotate the specified image 90 degrees to the right and return the modified image"""
+    """
+    Function rotate_right_90 rotates the specified image 90 degrees to the right and returns the modified image
+    
+    Parameters:
+        img: the image object from which to get the original pixels
+
+    Returns: A new image object containing the rotated image
+    """
    
     # Create an empty image with inverted width & height to allow for the rotation
     width = img.getWidth()
